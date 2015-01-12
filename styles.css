@@ -1,0 +1,79 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0; /* do we need margin 0 if we use normalize.css? */
+  box-sizing: border-box;
+  padding: 5px;
+  background: #384B70;
+}
+
+/* see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* remember, remember to always pass down sizes so we don't collapse */
+.container-main {
+  width: 100%;
+  max-width: 976px;
+  height: 100%;
+  padding: 5px;
+  margin: 100px 25px 100px 25px;
+  background: #fff;
+}
+
+  .jumbotron {
+    width: 100%;
+    height: 400px;
+  }
+
+    .jumbotron__img-container-main {
+      width: 50%;
+      height: auto;
+      float: left;
+      position: relative;
+    }
+
+      .jumbotron__img-main {
+        
+      }
+
+      .jumbotron__img-detail {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        background: rgba(0,0,0,.5);
+      }
+
+        .jumbotron__img-detail__title {
+          color: #fff; 
+        }
+
+        .jumbotron__img-detail__title-detail {
+          color: #fff; 
+        }
+
+    .jumbotron__img-sidebar {
+      width: 50%;
+      height: auto;
+      float: left;
+    }
+
+    .jumbotron__img-container-side1 {
+      width: 50%;
+      height: auto;
+    }
+    
+      .jumbotron__img-side1 {
+        
+      }
+
+    .jumbotron__img-container-side2 {
+      width: 50%;
+      height: auto;
+    }
+
+      .jumbotron__img-side2 {
+        
+      }
