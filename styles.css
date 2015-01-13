@@ -41,16 +41,17 @@ body, html {
       .jumbotron__img-detail {
         position: absolute;
         bottom: 0;
+        left: 0;
         width: 100%;
         height: auto;
         background: rgba(0,0,0,.5);
       }
 
-        .jumbotron__img-detail__title {
+        h1.jumbotron__img-detail__title {
           color: #fff; 
         }
 
-        .jumbotron__img-detail__title-detail {
+        h3.jumbotron__img-detail__title-detail {
           color: #fff; 
         }
 
@@ -61,19 +62,23 @@ body, html {
     }
 
     .jumbotron__img-container-side1 {
-      width: 50%;
-      height: auto;
+      width: auto;
+      height: 50%;
+      position: relative;
     }
     
       .jumbotron__img-side1 {
-        
+        width: auto;
+        height: 100%;
       }
 
     .jumbotron__img-container-side2 {
-      width: 50%;
-      height: auto;
+      width: auto;
+      height: 50%;
+      position: relative;
     }
 
       .jumbotron__img-side2 {
-        
+        width: auto;
+        height: 100%;
       }
