@@ -32,6 +32,7 @@ body, html {
       height: auto;
       float: left;
       position: relative;
+      padding-right: 5px;
     }
 
       .jumbotron__img {
@@ -54,6 +55,17 @@ body, html {
 
         h3.jumbotron__img-detail__title-detail {
           color: #fff; 
+        }
+
+        .jumbotron__img-title {
+          position: absolute;
+          top: -5%;
+          left: 2%;
+          width: auto;
+          height: auto;
+          color: #fff;
+          background: #27AAE1;
+          padding: 1px 3px;
         }
 
     .jumbotron__img-sidebar {
