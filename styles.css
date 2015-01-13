@@ -34,8 +34,9 @@ body, html {
       position: relative;
     }
 
-      .jumbotron__img-main {
-        
+      .jumbotron__img {
+        width: 100%;
+        height: auto;
       }
 
       .jumbotron__img-detail {
@@ -61,24 +62,8 @@ body, html {
       float: left;
     }
 
-    .jumbotron__img-container-side1 {
+    .jumbotron__img-container-side {
       width: auto;
       height: 50%;
       position: relative;
     }
-    
-      .jumbotron__img-side1 {
-        width: auto;
-        height: 100%;
-      }
-
-    .jumbotron__img-container-side2 {
-      width: auto;
-      height: 50%;
-      position: relative;
-    }
-
-      .jumbotron__img-side2 {
-        width: auto;
-        height: 100%;
-      }
